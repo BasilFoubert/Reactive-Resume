@@ -115,16 +115,11 @@ export const Sidebar = ({ setOpen }: SidebarProps) => {
 
       <div className="flex-1" />
 
-      <Separator className="opacity-50" />
 
-      <UserOptions>
-        <Button size="lg" variant="ghost" className="w-full justify-start px-3">
-          <UserAvatar size={24} className="mr-3" />
-          <span>{user?.name}</span>
-        </Button>
-      </UserOptions>
 
-      <Copyright className="ml-2" />
+
+
+
     </div>
   );
 };
