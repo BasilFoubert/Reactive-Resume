@@ -46,22 +46,6 @@ export const ExportSection = () => {
           className={cn(
             buttonVariants({ variant: "ghost" }),
             "h-auto cursor-pointer flex-row items-center gap-x-5 px-4 pb-3 pt-1",
-          )}
-          onClick={onJsonExport}
-        >
-          <FileJs size={22} />
-          <CardContent className="flex-1">
-            <CardTitle className="text-sm">{t`JSON`}</CardTitle>
-            <CardDescription className="font-normal">
-              {t`Download a JSON snapshot of your resume. This file can be used to import your resume in the future, or can even be shared with others to collaborate.`}
-            </CardDescription>
-          </CardContent>
-        </Card>
-
-        <Card
-          className={cn(
-            buttonVariants({ variant: "ghost" }),
-            "h-auto cursor-pointer flex-row items-center gap-x-5 px-4 pb-3 pt-1",
             loading && "pointer-events-none cursor-progress opacity-75",
           )}
           onClick={onPdfExport}

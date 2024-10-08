@@ -39,17 +39,11 @@ export const RightSidebar = () => {
           <Separator />
           <PageSection />
           <Separator />
-          <SharingSection />
-          <Separator />
-          <StatisticsSection />
-          <Separator />
           <ExportSection />
           <Separator />
           <NotesSection />
-          <Separator />
-          <InformationSection />
-          <Separator />
-          <Copyright className="text-center" />
+
+
         </div>
       </ScrollArea>
 
